@@ -1,3 +1,5 @@
+# Author: 0x44F
+
 from steganography import Steganography as stego
 
 PAYLOAD = "alert(0);"  # Insert your payload here, example 'alert(0);'
