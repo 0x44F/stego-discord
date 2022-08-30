@@ -9,7 +9,7 @@ CHARCODE    =   '\x00\x32\x38\xF1\xA3\xC7\xF4\x00\xFF\xFF\xFF'
 MAX_LEN     =   128
 
 if __name__ == '__main__':
-    if(len(payload) > 128)
+    if(len(payload) > 128):
         quit("Payload too long!")
     
     target_image = input("Target Image Path > ")     # Grab target image (meow)
