@@ -14,6 +14,8 @@ The program takes in a number of factors (Red, Green, Blue pixels) and modifies 
 > Public: 29/8/2022
 > ```
 
+![image](https://user-images.githubusercontent.com/89411010/188312993-16c14847-c2aa-4c4f-b463-de13cd70a212.png)
+
 ### But what is the vulnerability?
 The vulnerability is the fact that when you send an image over Discord inside of a channel, it checks for explicit imagery. By using the method described below, you can create an image 50% of the time that will trigger their explicit filters but not stop you from sending it. It is called 'silent detection' and has been used in the past to catch child predators.
 
